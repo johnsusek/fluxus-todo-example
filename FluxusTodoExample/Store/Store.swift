@@ -2,6 +2,8 @@ import SwiftUI
 import Combine
 import Fluxus
 
+let rootStore = RootStore()
+
 final class RootStore: BindableObject {
   var didChange = PassthroughSubject<RootStore, Never>()
 
