@@ -8,15 +8,6 @@ struct TodoView: View {
     return store.state.todo.todos[id]!
   }
 
-  var myToggleBinding = Binding<String> (
-    getValue: {
-      ""
-  },
-    setValue: { value in
-      print(value)
-      //      rootStore.commit(CounterMutation.SetMyBool(value))
-  })
-
   var body: some View {
     return HStack {
       Button(action: toggleDone) {
@@ -27,7 +18,6 @@ struct TodoView: View {
       }
 
       Text(todo.name)
-      TextField(myToggleBinding, onEditingChanged: handleEditingChanged)
     }
   }
 
