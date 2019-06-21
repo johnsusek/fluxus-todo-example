@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Fluxus",
+        "repositoryURL": "https://github.com/johnsusek/fluxus",
+        "state": {
+          "branch": null,
+          "revision": "f8eb3c9a322df3b012aa9a28d55c5a472e438591",
+          "version": "0.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

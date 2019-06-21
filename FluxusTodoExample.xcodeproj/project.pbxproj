@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D88ED622B7394600FE53A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D88ED522B7394600FE53A3 /* AppDelegate.swift */; };
+		52D88ED822B7394600FE53A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D88ED722B7394600FE53A3 /* SceneDelegate.swift */; };
+		52D88EDA22B7394600FE53A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D88ED922B7394600FE53A3 /* ContentView.swift */; };
+		52D88EDC22B7394700FE53A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D88EDB22B7394700FE53A3 /* Assets.xcassets */; };
+		52D88EDF22B7394700FE53A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D88EDE22B7394700FE53A3 /* Preview Assets.xcassets */; };
+		52D88EE222B7394700FE53A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D88EE022B7394700FE53A3 /* LaunchScreen.storyboard */; };
+		52D88EEA22B73D2000FE53A3 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D88EE922B73D2000FE53A3 /* State.swift */; };
+		52D88EED22B73D7B00FE53A3 /* Fluxus in Frameworks */ = {isa = PBXBuildFile; productRef = 52D88EEC22B73D7B00FE53A3 /* Fluxus */; };
+		52D88EEF22B73E4600FE53A3 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D88EEE22B73E4600FE53A3 /* Store.swift */; };
+		52D88EF122B7405500FE53A3 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D88EF022B7405500FE53A3 /* Todo.swift */; };
+		52D88EF322B7485700FE53A3 /* Mutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D88EF222B7485700FE53A3 /* Mutations.swift */; };
+		52D88EF522B748B000FE53A3 /* Committers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D88EF422B748B000FE53A3 /* Committers.swift */; };
+		52D9EBCB22B9EF3500DCFBDB /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9EBCA22B9EF3500DCFBDB /* TodoView.swift */; };
+		52D9EBCD22B9EF8500DCFBDB /* TodoAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9EBCC22B9EF8400DCFBDB /* TodoAdd.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52D88ED222B7394600FE53A3 /* FluxusTodoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluxusTodoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D88ED522B7394600FE53A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52D88ED722B7394600FE53A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52D88ED922B7394600FE53A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52D88EDB22B7394700FE53A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D88EDE22B7394700FE53A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52D88EE122B7394700FE53A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D88EE322B7394700FE53A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D88EE922B73D2000FE53A3 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		52D88EEE22B73E4600FE53A3 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		52D88EF022B7405500FE53A3 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		52D88EF222B7485700FE53A3 /* Mutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mutations.swift; sourceTree = "<group>"; };
+		52D88EF422B748B000FE53A3 /* Committers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Committers.swift; sourceTree = "<group>"; };
+		52D9EBCA22B9EF3500DCFBDB /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		52D9EBCC22B9EF8400DCFBDB /* TodoAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAdd.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D88ECF22B7394600FE53A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D88EED22B73D7B00FE53A3 /* Fluxus in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A618AB22B808FB00C49592 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				52D88EEE22B73E4600FE53A3 /* Store.swift */,
+				52D88EE922B73D2000FE53A3 /* State.swift */,
+				52D88EF222B7485700FE53A3 /* Mutations.swift */,
+				52D88EF422B748B000FE53A3 /* Committers.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		52A618AC22B8091800C49592 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52D88EF022B7405500FE53A3 /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52A618AD22B8091D00C49592 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52D88ED922B7394600FE53A3 /* ContentView.swift */,
+				52D9EBCC22B9EF8400DCFBDB /* TodoAdd.swift */,
+				52D9EBCA22B9EF3500DCFBDB /* TodoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52D88EC922B7394600FE53A3 = {
+			isa = PBXGroup;
+			children = (
+				52D88ED422B7394600FE53A3 /* FluxusTodoExample */,
+				52D88ED322B7394600FE53A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52D88ED322B7394600FE53A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D88ED222B7394600FE53A3 /* FluxusTodoExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D88ED422B7394600FE53A3 /* FluxusTodoExample */ = {
+			isa = PBXGroup;
+			children = (
+				52A618AC22B8091800C49592 /* Models */,
+				52A618AB22B808FB00C49592 /* Store */,
+				52A618AD22B8091D00C49592 /* Views */,
+				52D88ED522B7394600FE53A3 /* AppDelegate.swift */,
+				52D88ED722B7394600FE53A3 /* SceneDelegate.swift */,
+				52D88EDB22B7394700FE53A3 /* Assets.xcassets */,
+				52D88EE022B7394700FE53A3 /* LaunchScreen.storyboard */,
+				52D88EE322B7394700FE53A3 /* Info.plist */,
+				52D88EDD22B7394700FE53A3 /* Preview Content */,
+			);
+			path = FluxusTodoExample;
+			sourceTree = "<group>";
+		};
+		52D88EDD22B7394700FE53A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52D88EDE22B7394700FE53A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D88ED122B7394600FE53A3 /* FluxusTodoExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D88EE622B7394700FE53A3 /* Build configuration list for PBXNativeTarget "FluxusTodoExample" */;
+			buildPhases = (
+				52D88ECE22B7394600FE53A3 /* Sources */,
+				52D88ECF22B7394600FE53A3 /* Frameworks */,
+				52D88ED022B7394600FE53A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluxusTodoExample;
+			packageProductDependencies = (
+				52D88EEC22B73D7B00FE53A3 /* Fluxus */,
+			);
+			productName = FluxusTodoExample;
+			productReference = 52D88ED222B7394600FE53A3 /* FluxusTodoExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D88ECA22B7394600FE53A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "John Susek";
+				TargetAttributes = {
+					52D88ED122B7394600FE53A3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 52D88ECD22B7394600FE53A3 /* Build configuration list for PBXProject "FluxusTodoExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D88EC922B7394600FE53A3;
+			packageReferences = (
+				52D88EEB22B73D7B00FE53A3 /* XCRemoteSwiftPackageReference "fluxus" */,
+			);
+			productRefGroup = 52D88ED322B7394600FE53A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D88ED122B7394600FE53A3 /* FluxusTodoExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D88ED022B7394600FE53A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D88EE222B7394700FE53A3 /* LaunchScreen.storyboard in Resources */,
+				52D88EDF22B7394700FE53A3 /* Preview Assets.xcassets in Resources */,
+				52D88EDC22B7394700FE53A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D88ECE22B7394600FE53A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D88EEF22B73E4600FE53A3 /* Store.swift in Sources */,
+				52D88ED622B7394600FE53A3 /* AppDelegate.swift in Sources */,
+				52D88EF522B748B000FE53A3 /* Committers.swift in Sources */,
+				52D88ED822B7394600FE53A3 /* SceneDelegate.swift in Sources */,
+				52D9EBCD22B9EF8500DCFBDB /* TodoAdd.swift in Sources */,
+				52D88EF122B7405500FE53A3 /* Todo.swift in Sources */,
+				52D88EDA22B7394600FE53A3 /* ContentView.swift in Sources */,
+				52D9EBCB22B9EF3500DCFBDB /* TodoView.swift in Sources */,
+				52D88EF322B7485700FE53A3 /* Mutations.swift in Sources */,
+				52D88EEA22B73D2000FE53A3 /* State.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52D88EE022B7394700FE53A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D88EE122B7394700FE53A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D88EE422B7394700FE53A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52D88EE522B7394700FE53A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D88EE722B7394700FE53A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "FluxusTodoExample/Preview\\ Content";
+				DEVELOPMENT_TEAM = WX2UGCD2SK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FluxusTodoExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.johnsolo.FluxusTodoExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52D88EE822B7394700FE53A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "FluxusTodoExample/Preview\\ Content";
+				DEVELOPMENT_TEAM = WX2UGCD2SK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FluxusTodoExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.johnsolo.FluxusTodoExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D88ECD22B7394600FE53A3 /* Build configuration list for PBXProject "FluxusTodoExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D88EE422B7394700FE53A3 /* Debug */,
+				52D88EE522B7394700FE53A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D88EE622B7394700FE53A3 /* Build configuration list for PBXNativeTarget "FluxusTodoExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D88EE722B7394700FE53A3 /* Debug */,
+				52D88EE822B7394700FE53A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52D88EEB22B73D7B00FE53A3 /* XCRemoteSwiftPackageReference "fluxus" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnsusek/fluxus";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52D88EEC22B73D7B00FE53A3 /* Fluxus */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52D88EEB22B73D7B00FE53A3 /* XCRemoteSwiftPackageReference "fluxus" */;
+			productName = Fluxus;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 52D88ECA22B7394600FE53A3 /* Project object */;
+}
